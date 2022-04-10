@@ -18,7 +18,7 @@ To understand the outcomes based on launch dates, the analysis focused in the re
 	* Rows: 'Date Created Conversion' field 
 	* Values: Count of 'Outcomes'
 	
-PIVOT image
+![Pivot outcomes based on launch dates](https://github.com/MarcoFernandez14/kickstarter-analysis/blob/main/Resources/Pivot%20Theater_Outcomes_vs_Launch.png)
 
 To help visualize the outcomes of the analysis, a Line chart of the different outcomes was created containing the count of 'outcomes' on the Y axis and the 'date created conversion' grouped by months on the X axis.
 
