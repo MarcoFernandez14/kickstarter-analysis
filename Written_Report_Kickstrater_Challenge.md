@@ -22,18 +22,18 @@ To understand the outcomes based on launch dates, the analysis focused in the re
 
 To help visualize the outcomes of the analysis, a Line chart of the different outcomes was created containing the count of 'outcomes' on the Y axis and the 'date created conversion' grouped by months on the X axis.
 
-CHART image
-	
+![Chart outcomes based on launch dates](https://github.com/MarcoFernandez14/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+
 
 ### Analysis of Outcomes Based on Goals
 
 To understand the outcomes based on goals, the analysis focused in the relation between twelve different goal ranges and the count of different outcomes excluding the outcome 'live'. The analysis was performed for the subcategory 'plays'. A table was created using the formula 'countifs' and then the percentage of each outcome was calculated for the different goal ranges.
 
-TABLE image
+![Table outcomes based on goals](https://github.com/MarcoFernandez14/kickstarter-analysis/blob/main/Resources/Table%20Outcomes_vs_Goals.png)
 
 To better understand and visualize the analysis, a Line chart was created with the information described above. In the chart, we can oberve the relation between the plays outcome and the goal.
 
-CHART image 
+![Chart outcomes based on goals](https://github.com/MarcoFernandez14/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
