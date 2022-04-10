@@ -11,12 +11,12 @@ The purpose of the analysis is to provide Louise information about how different
 ### Analysis of Outcomes Based on Launch Date
 
 To understand the outcomes based on launch dates, the analysis focused in the relation between the 'Date Created Conversion' grouped by months and the count of different outcomes excluding the outcome 'live'. The analysis was perfomed for the parent category "tether. A pivot table was created containing the following relevant fields:
-	* Filters:
+	- Filters:
 		- 'Parent category' field filtered in 'theater'
 		- 'Year' field
-	* Columns: 'Outcomes' filed
-	* Rows: 'Date Created Conversion' field 
-	* Values: Count of 'Outcomes'
+	- Columns: 'Outcomes' filed
+	- Rows: 'Date Created Conversion' field 
+	- Values: Count of 'Outcomes'
 	
 ![Pivot outcomes based on launch dates](https://github.com/MarcoFernandez14/kickstarter-analysis/blob/main/Resources/Pivot%20Theater_Outcomes_vs_Launch.png)
 
