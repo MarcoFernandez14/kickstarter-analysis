@@ -10,24 +10,24 @@ The purpose of the analysis is to provide Louise information about how different
 
 ### Analysis of Outcomes Based on Launch Date
 
-To understand the outcomes based on launch dates, the analysis focused in the relation between the 'Date Created Conversion' grouped by months and the count of different outcomes excluding the outcome 'live'. The analysis was perfomed for the parent category "tether. A pivot table was created containing the following relevant fields:
-	- Filters:
-		- 'Parent category' field filtered in 'theater'
-		- 'Year' field
-	- Columns: 'Outcomes' filed
-	- Rows: 'Date Created Conversion' field 
-	- Values: Count of 'Outcomes'
+To understand the outcomes based on launch dates, the analysis focused in the relation between the *Date Created Conversion* grouped by months and the count of different outcomes excluding the outcome *live*. The analysis was perfomed for the parent category *teather*. A pivot table was created containing the following relevant fields:
+- Filters:
+	- *Parent category* field filtered in *theater*
+	- *Year* field
+- Columns: *Outcomes* filed
+- Rows: *Date Created Conversion* field 
+- Values: Count of *Outcomes*
 	
 ![Pivot outcomes based on launch dates](https://github.com/MarcoFernandez14/kickstarter-analysis/blob/main/Resources/Pivot%20Theater_Outcomes_vs_Launch.png)
 
-To help visualize the outcomes of the analysis, a Line chart of the different outcomes was created containing the count of 'outcomes' on the Y axis and the 'date created conversion' grouped by months on the X axis.
+To help visualize the outcomes of the analysis, a Line chart of the different outcomes was created containing the count of *outcomes* on the Y axis and the *date created conversion* grouped by months on the X axis.
 
 ![Chart outcomes based on launch dates](https://github.com/MarcoFernandez14/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
 
-To understand the outcomes based on goals, the analysis focused in the relation between twelve different goal ranges and the count of different outcomes excluding the outcome 'live'. The analysis was performed for the subcategory 'plays'. A table was created using the formula 'countifs' and then the percentage of each outcome was calculated for the different goal ranges.
+To understand the outcomes based on goals, the analysis focused in the relation between twelve different goal ranges and the count of different outcomes excluding the outcome *live*. The analysis was performed for the subcategory *plays*. A table was created using the formula **countifs** and then the percentage of each outcome was calculated for the different goal ranges.
 
 ![Table outcomes based on goals](https://github.com/MarcoFernandez14/kickstarter-analysis/blob/main/Resources/Table%20Outcomes_vs_Goals.png)
 
@@ -49,8 +49,7 @@ To better understand and visualize the analysis, a Line chart was created with t
 
 	* Theater is a popular and successful type of campaign overall
 	* There is a negative correlation between the percentage of successful theater campaigns and the campaigns goals. This means that the greater the goal, the more chances the campaign will fail
-	* There is a positive correlation between the percentage of successful theater campaigns and the campaigns goals. This means that the lower the goal, the more chances the campaign will succeed
-
+	
 - What are some limitations of this dataset?
 
 	* We could keep filtering the pivots and charts to be more precise. We could filter countries, years, weeks, etc. However, we need to be careful not to miss gereral trends or lose the aim of the analysis	
